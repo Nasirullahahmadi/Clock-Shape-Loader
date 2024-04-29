@@ -1,0 +1,82 @@
+body {
+    background-color: cornsilk;
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    border: 6px solid lightcoral;
+}
+
+.center {
+    position: relative;
+    background-color: darkseagreen;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 52px;
+    left: 52px;
+}
+
+.handel_1 {
+    position: relative;
+    background-color: darkseagreen;
+    height: 55px;
+    width: 6px;
+    border-radius: 27px;
+    bottom: 7px;
+    left: 57px;
+    animation: spin_a 2s infinite;
+    transform-origin: bottom;
+}
+
+@keyframes spin_a {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.handel_2 {
+    position: relative;
+    background-color: darkseagreen;
+    height: 6px;
+    width: 35px;
+    border-radius: 15px;
+    left: 25px;
+    bottom: 13px;
+    animation: spin_b 3s infinite;
+    transform-origin: right;
+}
+
+@keyframes spin_b {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
